@@ -95,6 +95,17 @@ td.c-save:hover {
 }
 
 
+@media(max-width : 600px) {
+  .planner-block {
+    width: 100%;
+  }
+  td.c-time {
+    min-width: 20px;
+  }
+  td {
+    padding: 15px;
+  }
+}
 
 /* .time-block{
   text-align: center;
