@@ -64,11 +64,16 @@ td.c-agenda {
 }
 .agenda-input {
   width: 100%;
-  resize: none;
+  /* resize: none; */
   border: 0;
-  padding: 0;
-  outline: none;
+  padding: 5px;
+  /* outline: none; */
   line-height: 1.4rem;
+}
+
+.agenda-input.editing {
+  border: 2px solid rgb(149, 173, 238);
+  outline: thin;
 }
 
 td.past {
