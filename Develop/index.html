@@ -27,59 +27,65 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <div id="button-group">
+        <button id="yesterday" class="date-btn btn btn-dark">Yesterday</button>
+        <button id="today" class="date-btn btn btn-primary">Today</button>
+        <button id="tomorrow" class="date-btn btn btn-dark">Tomorrow</button>
+      </div>
+      
     </header>
     <div class="container planner-block">
       <!-- Timeblocks go here -->
       <table>
         <tr>
           <th>Time</th>
-          <th>Click the <i class="fas fa-pen-square fa-sm"></i> to enter text in the desired time slot and click <i class="fas fa-save fa-sm"></i> to save.</th>
+          <th>Click the <i class="fas fa-pen fa-sm"></i> to enter text in the desired time slot and click <i class="fas fa-save fa-sm"></i> to save.</th>
           <!-- <th></th> -->
         </tr>
         
-        <tr id="nine" class="time-slot">
+        <tr id="nine" data-time="9" class="time-slot">
           <td class="c-time">9 AM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">NINE</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="ten" class="time-slot">
+        <tr id="ten" data-time="10" class="time-slot">
           <td class="c-time">10 AM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">TEN</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="eleven" class="time-slot">
+        <tr id="eleven" data-time="11" class="time-slot">
           <td class="c-time">11 AM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">ELEVEN</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="twelve" class="time-slot">
+        <tr id="twelve" data-time="12" class="time-slot">
           <td class="c-time">12 PM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">TWELVE</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="one" class="time-slot">
+        <tr id="one" data-time="13" class="time-slot">
           <td class="c-time">1 PM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">ONE</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="two" class="time-slot">
+        <tr id="two" data-time="14" class="time-slot">
           <td class="c-time">2 PM</td>
-          <td class="c-agenda empty past"><div contenteditable="false" class="agenda-input">TWO</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="three" class="time-slot">
+        <tr id="three" data-time="15" class="time-slot">
           <td class="c-time">3 PM</td>
-          <td class="c-agenda empty present"><div contenteditable="false" class="agenda-input">THREE</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="four" class="time-slot">
+        <tr id="four" data-time="16" class="time-slot">
           <td class="c-time">4 PM</td>
-          <td class="c-agenda empty future"><div contenteditable="true" class="agenda-input">FOUR</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
-        <tr id="five" class="time-slot">
+        <tr id="five" data-time="17" class="time-slot">
           <td class="c-time">5 PM</td>
-          <td class="c-agenda empty future"><div contenteditable="false" class="agenda-input">FIVE</div></td>
+          <td class="c-agenda"><div contenteditable="false" class="agenda-input"></div></td>
           <td class="c-save saved"></td>
         </tr>
       </table>

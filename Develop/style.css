@@ -26,6 +26,10 @@ textarea{
   white-space: pre-wrap;
 }
 
+.btn {
+  margin: 15px auto;
+}
+
 .planner-block {
   width: 80%;
   background-color: #f3efec;
@@ -59,7 +63,7 @@ min-width: 100px;
 
 td.c-agenda {
   min-width: 40%;
-  background-color: red;
+  background-color: gray;
   text-align: left;
 }
 .agenda-input {
@@ -81,11 +85,11 @@ td.past {
 }
 
 td.present {
-  background-color: green;
+  background-color: rgb(221, 62, 62);
 }
 
 td.future {
-  background-color: goldenrod;
+  background-color: rgb(76, 145, 76);
 }
 
 td.c-save {
