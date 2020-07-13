@@ -1,22 +1,7 @@
 
 
-/* 
-on page load the agenda input divs get content from local storage
-text divs are empty and user clicks on the pencil and is able to edit the text. 
-user clicks save icon and text content update local storage
-
-
-TIME
-If the time has passed a class of "past" is added to the td of the applicable time (time is checked on load and save/edit)
-if in the present hour the td has a class of "present" 
-if it is a future hour the td has a class of "future"
-
-The date is also stored in localStorage and if the date is not today the localstorage is cleared the the date updated
-
-*/
-
-console.log(moment());
-console.log(moment()._d.getDay());
+// console.log(moment());
+// console.log(moment()._d.getDay());
 
 
 class Schedule {
@@ -227,13 +212,7 @@ $(document).ready(function () {
         // console.log(chosenDate);
     }
 
-    // get the date
-    // check if the date already has an entry in LS
-    // If it is then set the variable to the object and populate the table with the object
-    // If it isnt then set set it and creat a new object with empty strings
-    // When a user edits a field turn conteneditable to true
-    // when a user saves add the data to the object and set it in local storage again
-    // STRETCH: User can go several days down the road or back in time (there would be a button that brings them to "today") to set and view schedules stored in localStorage
+
 
 
 

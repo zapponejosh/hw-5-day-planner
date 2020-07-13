@@ -5,15 +5,6 @@ body {
   background-color: rgb(80, 80, 80);
 }
 
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
 .jumbotron {
   text-align: center;
   background-color: f3efec;
@@ -62,16 +53,15 @@ min-width: 100px;
 }
 
 td.c-agenda {
+  width: 80%;
   min-width: 40%;
   background-color: gray;
   text-align: left;
 }
 .agenda-input {
   width: 100%;
-  /* resize: none; */
   border: 0;
   padding: 5px;
-  /* outline: none; */
   line-height: 1.4rem;
 }
 
