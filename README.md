@@ -19,4 +19,4 @@ A day planner (9AM- 5PM) to help you keep track of your day!
 
 
 ## Deployed via Github Pages
-[Find it here](https://zapponejosh.github.io/hw-4-quiz/)
+[Find it here](https://zapponejosh.github.io/hw-5-day-planner/)
